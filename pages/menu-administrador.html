@@ -13,9 +13,9 @@
             <div class="container__logo">
                 <a href="http://127.0.0.1:5500/index.html"><img class="cabecalho__logo--imagem" src="../assets/img/resources/logo.svg" alt="Logotipo AluraGeek"/></a>
             </div>
-            <div class="container__campo-de-pesquisa">
-                <input class="campo-de-pesquisa__input" type="text" placeholder="O que deseja encontrar?" data-pesquisa/>
-                <ul class="lista-de-resultadoss"></ul>
+            <div class="container__campo-de-pesquisa" data-container-pesquisa>
+                <input class="campo-de-pesquisa__input" type="text" placeholder="O que deseja encontrar?" data-input-pesquisa/>
+                <ul class="lista-de-resultados"></ul>
                 <button type="button" class="campo-de-pesquisa__botao" data-botao-pesquisa></button>
             </div>
         </nav>
@@ -69,6 +69,7 @@
     </footer>
     <script type="module" src="../assets/js/crud/controllers/mostra-todos-os-produtos.js"></script>
     <script type="module" src="../assets/js/crud/controllers/exclui-produto.js"></script>
+    <script type="module" src="../assets/js/busca-produto.js"></script>
     <script src="../assets/js/contact-form/contact.js"></script>
     <script src="../assets/js/menu-do-administrador/redirection.js"></script>
 </body>

@@ -38,7 +38,7 @@ A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas
 - [x] Próximos passos - exclusão do produto <br />
 - [x] Próximos passos - página específica do produto: exibir informações do produto <br />
 - [ ] Próximos passos - página específica do produto: exibir produtos similares <br />
-- [ ] Próximos passos - função de busca do produto: fazê-la funcionar de modo a exibir os produtos conforme o usuário for digitando <br />
+- [x] Próximos passos - função de busca do produto: fazê-la funcionar de modo a exibir os produtos conforme o usuário for digitando <br />
 - [ ] Próximos passos - aplicar desconto nos consoles <br />
 
 #
