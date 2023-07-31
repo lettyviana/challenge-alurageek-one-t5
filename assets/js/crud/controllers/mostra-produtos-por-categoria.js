@@ -60,4 +60,4 @@ function redirecionaParaPaginaProduto(event) {
     // Redireciona o usuário para a página do produto com o ID específico
     const urlProduto = `../pages/pagina-produto.html?categoria=${category}&id=${id}`;
     window.location.href = urlProduto;
-  }
+}

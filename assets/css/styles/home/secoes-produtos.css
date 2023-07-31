@@ -33,7 +33,7 @@
     font-size: 2rem;
 }
 
-.categoria__cabecalho--link {
+.categoria__link {
     align-items: center;
     color: var(--azul-100);
     display: flex;
@@ -45,7 +45,7 @@
     width: 98px;
 }
 
-.categoria__cabecalho--link::after {
+.categoria__link::after {
     background: currentColor;
     bottom: 0;
     content: "";
@@ -66,7 +66,7 @@
     width: 24px;
 }
 
-.categoria__cabecalho--link:hover::after {
+.categoria__link:hover::after {
     transform: scaleX(1);
     transform-origin: left;
 }
@@ -181,7 +181,7 @@
         width: 100%;
     }
     
-    .categoria__cabecalho--link {
+    .categoria__link {
         font-size: .875rem;
         gap: .25rem;
     }
