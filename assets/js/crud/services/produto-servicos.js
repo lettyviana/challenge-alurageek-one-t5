@@ -15,6 +15,11 @@ async function buscaProdutoPorId(id) {
     }
 }
 
+async function listaProdutosPorCategoria(categoria) {
+    const listaApi = await listaProdutos();
+    return listaApi.filter((produto) => produto.category.toLowerCase() === categoria.toLowerCase());
+}
+
 // async function buscaProduto(termoDeBusca) {
 //     const conexao = await fetch (`https://64bbe3437b33a35a4446c7db.mockapi.io/produtos?q=${termoDeBusca}`);
 //     const resposta = conexao.json();
@@ -77,5 +82,6 @@ export const produtosServicos = {
     editaProduto,
     excluiProduto,
     buscaProdutoPorId,
+    listaProdutosPorCategoria,
     // buscaProduto
 }

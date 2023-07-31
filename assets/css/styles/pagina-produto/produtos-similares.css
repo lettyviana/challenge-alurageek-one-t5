@@ -48,6 +48,10 @@
     font-size: 1rem;
 }
 
+.produto__categoria {
+    display: none;
+}
+
 .produto__link {
     color: var(--azul-100);
     font-family: Raleway-700, sans-serif;

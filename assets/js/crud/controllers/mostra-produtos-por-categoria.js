@@ -10,7 +10,7 @@ export default function criaCardProduto(imageUrl, name, price, alt, category, id
         <h3 class="produto__nome">${name}</h3>
         <div class="produto__preco">R$ ${price}</div>
         <span class="produto__categoria">${category}</span>
-        <a href="../../pages/pagina-produto.html?id=${id}" class="produto__link" data-id="${id}">Ver produto</a>
+        <a href="../../pages/pagina-produto.html?categoria=${category}&id=${id}" class="produto__link" data-categoria="${category}" data-id="${id}">Ver produto</a>
     </div>
     `
 
@@ -53,8 +53,11 @@ function redirecionaParaPaginaProduto(event) {
   
     // Recupera o ID do produto do atributo "data-id" do link clicado
     const id = event.target.dataset.id;
+
+    // Recupera a categoria do produto do atributo "data-categoria" do link clicado
+    const category = event.target.dataset.categoria;
   
     // Redireciona o usuário para a página do produto com o ID específico
-    const urlProduto = `../pages/pagina-produto.html?id=${id}`;
+    const urlProduto = `../pages/pagina-produto.html?categoria=${category}&id=${id}`;
     window.location.href = urlProduto;
   }
