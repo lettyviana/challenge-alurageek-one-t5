@@ -4,7 +4,7 @@
 
 .container__banner {
     align-items: center;
-    background: url("../../../Img/Resources/banner.svg") no-repeat center / cover;
+    background: url("../../../img/resources/banner.svg") no-repeat center / cover;
     display: flex;
     flex-direction: column;
     height: 352px;

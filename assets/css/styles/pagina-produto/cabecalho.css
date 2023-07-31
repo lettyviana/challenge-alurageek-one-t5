@@ -70,7 +70,7 @@
 
 .campo-de-pesquisa__botao {
     background-color: transparent;
-    background-image: url(../../../Img/Resources/search-magnifyer.svg);
+    background-image: url(../../../img/resources/search-magnifyer.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,18 +109,6 @@
     .lista-de-resultados.exibir-resultados {
         top: 60px;
         width: 208px;
-    }
-    
-    .campo-de-pesquisa__botao {
-        background-image: url(../../../Img/Resources/search-magnifyer.svg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border: none;
-        opacity: .5;
-        position: relative;
-        height: 24px;
-        width: 24px;
     }
 }
 
