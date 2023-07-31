@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do produto</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/resources/produto-favicon.svg">
+    <link rel="stylesheet" href="../Assets/CSS/Styles/Pagina-Produto/pagina-produto.css" />
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__container">
+            <div class="container__logo">
+                <a href="http://127.0.0.1:5500/index.html"><img class="cabecalho__logo--imagem" src="../assets/img/resources/logo.svg" alt="Logotipo AluraGeek"/></a>
+            </div>
+            <div class="container__campo-de-pesquisa">
+                <input class="campo-de-pesquisa__input" type="text" placeholder="O que deseja encontrar?" data-pesquisa/>
+                <ul class="lista-de-resultadoss"></ul>
+                <button type="button" class="campo-de-pesquisa__botao" data-botao-pesquisa></button>
+            </div>
+        </nav>
+    </header>
+    <section id="pagina-do-produto">
+        <section class="container__pagina-do-produto" data-container-produto>
+            <!-- <div class="detalhes-do-produto" data-produto-id="${id}"> -->
+                <!-- <img src="../assets/img/products/starwars/l1-1.jfif" alt="Lorem" class="imagem-do-produto"/>
+                <div class="container__informacoes-do-produto">
+                    <h3 class="informacoes-do-produto__nome">Produto XYZ</h3>
+                    <p class="informacoes-do-produto__preco">R$ 60,00</p>
+                    <p class="informacoes-do-produto__descricao">Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam</p>
+                    <span class="informacoes-do-produto__categoria">${category}</span>
+                </div> -->
+            </div>
+        </section>
+        <section class="produtos-similares" data-produtos-similares>
+            <div class="produtos-similares__cabecalho">
+                <h2 class="produtos-similares__cabecalho--titulo">Produtos similares</h2>
+            </div>
+            <div class="produto">
+                <img class="produto__imagem" src="../assets/img/products/consoles/l1-1.jfif" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
+                <h3 class="produto__nome">Controle XYZ</h3>
+                <div class="produto__preco">R$ 60,00</div>
+                <a href="#" class="produto__link">Ver produto</a>
+            </div>
+            <div class="produto">
+                <img class="produto__imagem" src="../assets/img/products/starwars/l1-2.jfif" alt="Phasellus a varius elit."/>
+                <h3 class="produto__nome">Produto XYZ</h3>
+                <div class="produto__preco">R$ 60,00</div>
+                <a href="#" class="produto__link">Ver produto</a>
+            </div>
+            <div class="produto">
+                <img class="produto__imagem" src="../assets/img/products/starwars/l1-3.jfif" alt="Pellentesque purus velit, consectetur vel interdum a, tristique sit amet odio."/>
+                <h3 class="produto__nome">Produto XYZ</h3>
+                <div class="produto__preco">R$ 60,00</div>
+                <a href="#" class="produto__link">Ver produto</a>
+            </div>
+            <div class="produto">
+                <img class="produto__imagem" src="../assets/img/products/starwars/l1-4.jfif" alt="Suspendisse imperdiet feugiat augue, consequat condimentum arcu lacinia tempor."/>
+                <h3 class="produto__nome">Produto XYZ</h3>
+                <div class="produto__preco">R$ 60,00</div>
+                <a href="#" class="produto__link">Ver produto</a>
+            </div>
+            <div class="produto">
+                <img class="produto__imagem" src="../assets/img/products/starwars/l1-5.jfif" alt="Duis pulvinar lobortis ullamcorper."/>
+                <h3 class="produto__nome">Produto XYZ</h3>
+                <div class="produto__preco">R$ 60,00</div>
+                <a href="#" class="produto__link">Ver produto</a>
+            </div>
+            <div class="produto">
+                <img class="produto__imagem" src="../assets/img/products/starwars/l1-6.jfif" alt="Pellentesque sollicitudin diam vel risus pharetra, nec consequat sem facilisis."/>
+                <h3 class="produto__nome">Produto XYZ</h3>
+                <div class="produto__preco">R$ 60,00</div>
+                <a href="#" class="produto__link">Ver produto</a>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <section class="rodape">
+            <div class="container__rodape">
+                <div class="logo">
+                    <a href="http://127.0.0.1:5500/index.html"><img class="rodape__logo--imagem" src="../assets/img/resources/logo.svg" alt="Logotipo AluraGeek"/></a>
+                </div>
+                <div class="container__menu">
+                    <nav class="menu">
+                        <ul class="menu__lista">
+                            <li class="menu__item"><a href="#" class="menu__link">Quem somos nós</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Política de privacidade</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Programa fidelidade</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Nossas lojas</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Quero ser franqueado</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Anuncie aqui</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <form class="formulario__contato" data-formulario-de-contato>
+                    <h3 class="formulario__titulo">Fale conosco</h3>
+                    <div class="formulario__contato--campos">
+                        <label class="etiqueta__nome" for="nome">Nome</label>
+                        <input id="nome" class="escrita__nome" placeholder="Escreva seu nome" type="text" data-nome />
+                        <span class="mensagem-erro__contato"></span>
+                    </div>
+                    <div class="formulario__contato--campos">
+                        <label class="etiqueta__mensagem" for="mensagem">Escreva sua mensagem</label>
+                        <textarea id="mensagem" class="escrita__mensagem" placeholder="Escreva sua mensagem" type="text" data-mensagem></textarea>
+                        <span class="mensagem-erro__contato"></span>
+                    </div>
+                    <button type="submit" class="formulario__botao">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
+        <section class="autoria">
+            <div class="autoria__texto">Desenvolvido por Letícia S. Viana</div>
+            <div class="autoria__ano">2023</div>
+        </section>
+    </footer>
+    <script type="module" src="../assets/js/crud/controllers/detalhes-do-produto.js"></script>
+    <!-- <script type="module" src="../assets/js/crud/controllers/mostra-todos-os-produtos.js"></script> -->
+    <script src="../assets/js/contact-form/contact.js"></script>
+</body>
+</html>

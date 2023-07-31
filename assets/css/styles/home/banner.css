@@ -1,0 +1,111 @@
+.banner {
+    display: flex;
+}
+
+.container__banner {
+    align-items: center;
+    background: url("../../../Img/Resources/banner.svg") no-repeat center / cover;
+    display: flex;
+    flex-direction: column;
+    height: 352px;
+    justify-content: flex-end;
+    padding: 2rem;
+    position: relative;
+    width: 100%;
+}
+
+.banner__descricao {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 170px;
+    gap: 1rem;
+    position: absolute;
+    width: 1136px;
+}
+
+.banner__titulo {
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    font-family: Raleway-700, sans-serif;
+    font-size: 3.25rem;
+    font-style: normal;
+    width: 751px;
+}
+
+.banner__desconto {
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    font-family: Raleway-700, sans-serif;
+    font-size: 1.375rem;
+    font-style: normal;
+    width: 751px;
+}
+
+.banner__botao {
+    align-items: center;
+    background-color: var(--azul-100);
+    border: none;
+    color: var(--branco);
+    cursor: pointer;
+    display: flex;
+    font-family: Raleway-400, sans-serif;
+    font-size: 1rem;
+    gap: .625rem;
+    justify-content: center;
+    padding: 1rem;
+    text-decoration: none;
+    transition: all .25s;
+}
+
+.banner__botao:hover {
+    background-color: var(--azul-80);
+}
+
+@media screen and (max-device-width: 768px) {
+    .banner__descricao {
+        height: 159px;
+        width: 704px;
+    }
+    
+    .banner__titulo {
+        width: 704px;
+    }
+    
+    .banner__desconto {
+        font-size: 1.375rem;
+    }
+    
+    .banner__botao {
+        font-family: Raleway-600, sans-serif;
+        font-size: .875rem;
+        gap: .625rem;
+        padding: .75rem 1rem;
+    }
+}
+
+@media screen and (max-device-width: 360px) {
+    .container__banner {
+        height: 192px;
+        padding: 1rem;
+    }
+
+    .banner__descricao {
+        gap: .5rem;
+        height: 98px;
+        width: 328px;
+    }
+    
+    .banner__titulo {
+        font-size: 1.375rem;
+        width: 328px;
+    }
+    
+    .banner__desconto {
+        font-family: Raleway-600, sans-serif;
+        font-size: .875rem;
+    }
+}

@@ -1,0 +1,124 @@
+.cabecalho {
+    background-color: var(--branco);
+    height: 115px;
+}
+
+.cabecalho__container {
+    align-items: center;
+    display: flex;
+    height: 115px;
+    gap: 2rem;
+    justify-content: flex-start;
+    margin: auto;
+    width: 1136px;
+}
+
+.cabecalho__logo--imagem {
+    height: 50px;
+    width: 176px;
+}
+
+.container__campo-de-pesquisa {
+    align-items: center;
+    border-radius: 20px;
+    background-color: var(--preto-05);
+    display: flex;
+    gap: 8px;
+    height: 40px;
+    padding: 8px 16px;
+    width: 393px;
+}
+
+.campo-de-pesquisa__input {
+    background-color: var(--preto-05);
+    border: none;
+    color: var(--preto-50);
+    font-family: Raleway-400, sans-serif;
+    font-size: .875rem;
+    height: 16px;
+    outline: none;
+    resize: none;
+    width: 329px;
+}
+
+.campo-de-pesquisa__botao {
+    background-color: transparent;
+    background-image: url(../../../Img/Resources/search-magnifyer.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    opacity: .5;
+    position: relative;
+    height: 24px;
+    width: 24px;
+}
+
+@media screen and (max-device-width: 768px) {
+    .cabecalho {
+        height: 72px;
+    }
+    
+    .cabecalho__container {
+        height: 72px;
+        padding: 1rem 2rem;
+        width: 768px;
+    }
+    
+    .cabecalho__logo--imagem {
+        height: 28px;
+        width: 100px;
+    }
+    
+    .container__campo-de-pesquisa {
+        width: 272px;
+    }
+    
+    .campo-de-pesquisa__input {
+        width: 208px;
+    }
+    
+    .campo-de-pesquisa__botao {
+        background-image: url(../../../Img/Resources/search-magnifyer.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        opacity: .5;
+        position: relative;
+        height: 24px;
+        width: 24px;
+    }
+}
+
+@media screen and (max-device-width: 360px) {
+    .cabecalho {
+        height: 72px;
+    }
+    
+    .cabecalho__container {
+        padding: 1.5rem 1rem;
+        width: 360px;
+    }
+    
+    .container__campo-de-pesquisa {
+        background-color: var(--branco);
+        justify-content: space-between;
+        margin-left: auto;
+        padding: 0;
+        width: 24px;
+    }
+    
+    .campo-de-pesquisa__input {
+        display: none;
+    }
+
+    .campo-de-pesquisa__input::placeholder {
+        visibility: hidden;
+    }
+
+    .campo-de-pesquisa__botao {
+        opacity: 1;
+    }
+}

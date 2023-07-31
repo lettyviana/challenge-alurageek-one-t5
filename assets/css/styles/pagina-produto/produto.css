@@ -1,0 +1,110 @@
+#pagina-do-produto {
+    background-color: var(--preto-05);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.container__pagina-do-produto {
+    display: flex;
+    margin: auto;
+    width: 1136px;
+}
+
+.detalhes-do-produto {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.imagem-do-produto {
+    object-fit: cover;
+    height: 403px;
+    width: 560px;
+}
+
+.container__informacoes-do-produto {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 560px;
+}
+
+.informacoes-do-produto__nome {
+    color: var(--preto-100);
+    font-family: Raleway-500, sans-serif;
+    font-size: 3.25rem;
+}
+
+.informacoes-do-produto__preco {
+    color: var(--preto-100);
+    font-family: Raleway-700, sans-serif;
+    font-size: 1rem;
+}
+
+.informacoes-do-produto__descricao {
+    color: var(--preto-100);
+    font-family: Raleway-400, sans-serif;
+    font-size: 1rem;
+}
+
+.informacoes-do-produto__categoria {
+    display: none;
+}
+
+@media screen and (max-device-width: 768px) {
+    #pagina-do-produto {
+        padding: 2rem;
+    }
+    
+    .container__pagina-do-produto {
+        height: 157px;
+        width: 704px;
+    }
+    
+    .imagem-do-produto {
+        height: 100%;
+        width: 254px;
+    }
+    
+    .container__informacoes-do-produto {
+        width: 434px;
+    }
+    
+    .informacoes-do-produto__nome {
+        font-size: 1.375rem;
+    }
+    
+    .informacoes-do-produto__descricao {
+        font-size: .875rem;
+    }
+}
+
+@media screen and (max-device-width: 360px) {
+    #pagina-do-produto {
+        gap: 2rem;
+        padding: 0;
+    }
+    
+    .container__pagina-do-produto {
+        flex-direction: column;
+        height: auto;
+        width: 360px;
+    }
+
+    .detalhes-do-produto {
+        flex-direction: column;
+    }
+    
+    .imagem-do-produto {
+        height: 192px;
+        width: 100%;
+    }
+    
+    .container__informacoes-do-produto {
+        width: 328px;
+    }
+}

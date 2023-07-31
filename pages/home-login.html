@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu login</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/resources/login-favicon.svg">
+    <link rel="stylesheet" href="../assets/css/styles/home-login/home-login.css" />
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__container">
+            <div class="container__logo">
+                <a href="http://127.0.0.1:5500/index.html"><img class="cabecalho__logo--imagem" src="../assets/img/resources/logo.svg" alt="Logotipo AluraGeek"/></a>
+            </div>
+            <div class="container__campo-de-pesquisa">
+                <input class="campo-de-pesquisa__input" type="text" placeholder="O que deseja encontrar?" data-pesquisa/>
+                <ul class="lista-de-resultadoss"></ul>
+                <button type="button" class="campo-de-pesquisa__botao" data-botao-pesquisa></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="tela-login" class="login">
+            <form action="#" class="formulario__iniciar-sessao" data-formulario-de-login>
+                <h3 class="formulario__iniciar-sessao--titulo">Iniciar Sessão</h3>
+                <div class="formulario__campos">
+                    <label class="etiqueta__email" for="email">E-mail</label>
+                    <input id="email" class="escrita__email" placeholder="Escreva seu email" type="text" data-email />
+                    <span class="mensagem-erro"></span>
+                </div>
+                <div class="formulario__campos">
+                    <label class="etiqueta__senha" for="senha">Senha</label>
+                    <input id="senha" class="escrita__senha" placeholder="Escreva sua senha" type="password" data-senha />
+                    <span class="mensagem-erro"></span>
+                </div>
+                <button type="submit" class="botao-formulario">Entrar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section class="rodape">
+            <div class="container__rodape">
+                <div class="logo">
+                    <a href="http://127.0.0.1:5500/index.html"><img class="rodape__logo--imagem" src="../assets/img/resources/logo.svg" alt="Logotipo AluraGeek"/></a>
+                </div>
+                <div class="container__menu">
+                    <nav class="menu">
+                        <ul class="menu__lista">
+                            <li class="menu__item"><a href="#" class="menu__link">Quem somos nós</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Política de privacidade</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Programa fidelidade</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Nossas lojas</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Quero ser franqueado</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Anuncie aqui</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <form class="formulario__contato" data-formulario-de-contato>
+                    <h3 class="formulario__titulo">Fale conosco</h3>
+                    <div class="formulario__contato--campos">
+                        <label class="etiqueta__nome" for="nome">Nome</label>
+                        <input id="nome" class="escrita__nome" placeholder="Escreva seu nome" type="text" data-nome />
+                        <span class="mensagem-erro__contato"></span>
+                    </div>
+                    <div class="formulario__contato--campos">
+                        <label class="etiqueta__mensagem" for="mensagem">Escreva sua mensagem</label>
+                        <textarea id="mensagem" class="escrita__mensagem" placeholder="Escreva sua mensagem" type="text" data-mensagem></textarea>
+                        <span class="mensagem-erro__contato"></span>
+                    </div>
+                    <button type="submit" class="formulario__botao">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
+        <section class="autoria">
+            <div class="autoria__texto">Desenvolvido por Letícia S. Viana</div>
+            <div class="autoria__ano">2023</div>
+        </section>
+    </footer>
+    <script src="../assets/js/home-login/login.js"></script>
+    <script src="../assets/js/contact-form/contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar produtos</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/resources/editar-produto-favicon.svg">
+    <link rel="stylesheet" href="../assets/css/styles/editar-produtos/editar-produtos.css" />
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__container">
+            <div class="container__logo">
+                <a href="http://127.0.0.1:5500/index.html"><img class="cabecalho__logo--imagem" src="../assets/img/resources/logo.svg" alt="Logotipo AluraGeek"/></a>
+            </div>
+            <div class="container__campo-de-pesquisa">
+                <input class="campo-de-pesquisa__input" type="text" placeholder="O que deseja encontrar?" data-pesquisa/>
+                <ul class="lista-de-resultadoss"></ul>
+                <button type="button" class="campo-de-pesquisa__botao" data-botao-pesquisa></button>
+            </div>
+            <button class="botao-do-administrador" type="button">Menu administrador</button>
+        </nav>
+    </header>
+    <main>
+        <section id="tela-editar-produto" class="editar-produto">
+            <div class="container__formulario">
+                <form action="#" class="formulario__editar-produto" data-formulario-editar-produtos>
+                    <h3 class="formulario__editar-produto--titulo">Editar produto</h3>
+                    <div class="formulario__caixa">
+                        <label class="etiqueta__imagem" for="imagem">URL da imagem</label>
+                        <input id="imagem" class="escrita__imagem" placeholder="Informe o URL da imagem" type="text" data-url />
+                        <span class="mensagem-erro"></span>
+                    </div>
+                    <div class="formulario__caixa">
+                        <label class="etiqueta__alt" for="alt">Descrição alt da imagem</label>
+                        <input id="alt" class="escrita__alt" placeholder="Informe a descrição alternativa da imagem" type="text" data-alt />
+                        <span class="mensagem-erro"></span>
+                    </div>
+                    <div class="formulario__caixa">
+                        <label class="etiqueta__categoria" for="categoria">Categoria</label>
+                        <input id="categoria" class="escrita__categoria" placeholder="Informe a categoria" type="text" data-categoria />
+                        <span class="mensagem-erro"></span>
+                    </div>
+                    <div class="formulario__caixa">
+                        <label class="etiqueta__nome-produto" for="nome-produto">Nome do produto</label>
+                        <input id="nome-produto" class="escrita__nome-produto" placeholder="Informe o nome do produto" type="text" data-nome />
+                        <span class="mensagem-erro"></span>
+                    </div>
+                    <div class="formulario__caixa">
+                        <label class="etiqueta__preco-produto" for="preco-produto">Preço do produto</label>
+                        <input id="preco-produto" class="escrita__preco-produto" placeholder="Informe o preço do produto" type="number" step="0.01" data-preco />
+                        <span class="mensagem-erro"></span>
+                    </div>
+                    <div class="formulario__caixa">
+                        <label class="etiqueta__quantidade" for="quantidade">Quantidade</label>
+                        <input id="quantidade" class="escrita__quantidade" placeholder="Informe a quantidade do produto" type="number" data-quantidade />
+                        <span class="mensagem-erro"></span>
+                    </div>
+                    <div class="formulario__caixa">
+                        <label class="etiqueta__descricao-produto" for="descricao-produto">Descrição do produto</label>
+                        <textarea id="descricao-produto" class="escrita__descricao-produto" placeholder="Digite uma descrição para o produto" type="text" data-descricao></textarea>
+                        <span class="mensagem-erro"></span>
+                    </div>
+                    <button type="submit" class="botao-editar">Atualizar produto</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="rodape">
+            <div class="container__rodape">
+                <div class="logo">
+                    <a href="http://127.0.0.1:5500/index.html"><img class="rodape__logo--imagem" src="../assets/img/resources/logo.svg" alt="Logotipo AluraGeek"/></a>
+                </div>
+                <div class="container__menu">
+                    <nav class="menu">
+                        <ul class="menu__lista">
+                            <li class="menu__item"><a href="#" class="menu__link">Quem somos nós</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Política de privacidade</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Programa fidelidade</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Nossas lojas</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Quero ser franqueado</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Anuncie aqui</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <form class="formulario__contato" data-formulario-de-contato>
+                    <h3 class="formulario__titulo">Fale conosco</h3>
+                    <div class="formulario__contato--campos">
+                        <label class="etiqueta__nome" for="nome">Nome</label>
+                        <input id="nome" class="escrita__nome" placeholder="Escreva seu nome" type="text" data-nome />
+                        <span class="mensagem-erro__contato"></span>
+                    </div>
+                    <div class="formulario__contato--campos">
+                        <label class="etiqueta__mensagem" for="mensagem">Escreva sua mensagem</label>
+                        <textarea id="mensagem" class="escrita__mensagem" placeholder="Escreva sua mensagem" type="text" data-mensagem></textarea>
+                        <span class="mensagem-erro__contato"></span>
+                    </div>
+                    <button type="submit" class="formulario__botao">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
+        <section class="autoria">
+            <div class="autoria__texto">Desenvolvido por Letícia S. Viana</div>
+            <div class="autoria__ano">2023</div>
+        </section>
+    </footer>
+    <script type="module" src="../assets/js/crud/controllers/edita-produto.js"></script>
+    <script src="../assets/js/contact-form/contact.js"></script>
+</body>
+</html>

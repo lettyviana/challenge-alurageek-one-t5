@@ -1,0 +1,38 @@
+:root {
+    --branco: #FFF;
+    --preto-05: #F5F5F5;
+    --preto-30: #C8C8C8;
+    --preto-50: #A2A2A2;
+    --preto-100: #464646;
+    --azul-10: #EAF2FD;
+    --azul-20: #D4E4FA;
+    --azul-80: #5595E9;
+    --azul-100: #2A7AE4;
+    --imagem-hero: #000000;
+    --destaque: #fdd700;
+    --erro: #a10b0b;
+}
+@font-face {
+    font-family: Raleway-400;
+    src: url(../Fonts/Raleway400.ttf);
+}
+@font-face {
+    font-family: Raleway-500;
+    src: url(../Fonts/Raleway500.ttf);
+}
+@font-face {
+    font-family: Raleway-600;
+    src: url(../Fonts/Raleway600.ttf);
+}
+@font-face {
+    font-family: Raleway-700;
+    src: url(../Fonts/Raleway700.ttf);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    overflow-x: hidden;
+    padding: 0;
+    text-decoration: none;
+}

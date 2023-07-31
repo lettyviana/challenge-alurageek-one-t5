@@ -1,0 +1,183 @@
+#tela-login {
+    background-color: var(--preto-05);
+    display: flex;
+    padding-bottom: 5.75rem;
+    padding-top: 5.75rem;
+}
+
+.formulario__iniciar-sessao {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 1.521rem;
+    margin: auto;
+    width: 423px;
+}
+
+.formulario__iniciar-sessao--titulo {
+    color: var(--preto-100);
+    display: flex;
+    font-family: Raleway-700, sans-serif;
+    font-size: 1.125rem;
+    justify-content: center;
+    width: 423px;
+}
+
+.formulario__campos {
+    align-items: flex-start;
+    background-color: var(--branco);
+    border-bottom: 1px solid var(--preto-30);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: .4375rem;
+    height: 63.127px;
+    justify-content: center;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    position: relative;
+    width: 423px;
+}
+
+.etiqueta__email, .etiqueta__senha {
+    color: var(--preto-50);
+    font-family: Raleway-400, sans-serif;
+    font-size: 1rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.escrita__email, .escrita__senha {
+    border: none;
+    color: var(--preto-100);
+    font-family: Raleway-400, sans-serif;
+    font-size: 1rem;   
+    outline: none;
+    position: absolute;
+    resize: none;
+    width: 399px;
+}
+
+.mensagem-erro {
+    visibility: hidden;
+}
+
+.foco.formulario__campos {
+    border-bottom: 2px solid var(--azul-100);
+}
+
+.foco .etiqueta__email, .foco .etiqueta__senha {
+    color: var(--azul-100);
+    font-size: .9rem;
+    top: 8px;
+}
+
+.foco .escrita__email, .foco .escrita__senha {
+    bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.escrita__email::placeholder, .escrita__senha::placeholder {
+    visibility: hidden;
+}
+
+.formulario__campos.erro {
+    border: 2px solid var(--erro);
+    border-radius: 4px;
+}
+
+.formulario__campos.erro .mensagem-erro {
+    animation: blink .6s ease-in-out infinite;
+    top: 5px;
+    color: var(--erro);
+    font-size: .95rem;
+    font-family: Raleway-400, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    visibility: visible;
+    width: 399px;
+}
+
+.botao-formulario {
+    align-items: center;
+    background-color: var(--azul-100);
+    border: none;
+    color: var(--branco);
+    cursor: pointer;
+    display: flex;
+    font-family: Raleway-400, sans-serif;
+    font-size: 1rem;
+    gap: .625rem;
+    height: 62px;
+    justify-content: center;
+    padding: .75rem 1rem;
+    text-decoration: none;
+    transition: all .25s;
+    width: 432px;
+}
+
+.botao-formulario:hover {
+    background-color: var(--azul-80);
+}
+
+@media screen and (max-device-width: 768px) {
+    #tela-login {
+        padding-bottom: 3.8125rem;
+        padding-top: 2.8125rem;
+    }
+    
+    .formulario__iniciar-sessao {
+        align-items: center;
+        gap: 1rem;
+        width: 275px;
+    }
+    
+    .formulario__iniciar-sessao--titulo {
+        width: 275px;
+    }
+    
+    .formulario__campos {
+        gap: 1.6875rem;
+        height: 41px;
+        width: 275px;
+    }
+    
+    .escrita__email, .escrita__senha {
+        width: 251px;
+    }
+    
+    .foco .etiqueta__email, .foco .etiqueta__senha {
+        font-size: .75rem;
+        top: 4px;
+    }
+    
+    .foco .escrita__email, .foco .escrita__senha {
+        bottom: 0;
+        font-size: 1rem;
+    }
+    
+    .formulario__campos.erro .mensagem-erro {
+        top: 2px;
+        font-size: .75rem;    
+        width: 251px;    
+    }
+    
+    .botao-formulario {
+        font-family: Raleway-600, sans-serif;
+        height: auto;
+        width: 109px;
+    }
+}
+
+@media screen and (max-device-width: 360px) {
+    #tela-login {
+        padding-bottom: 4.75rem;
+        padding-top: 6.0625rem;
+    }
+}
+
+@keyframes blink {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
