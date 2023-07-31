@@ -20,12 +20,6 @@ async function listaProdutosPorCategoria(categoria) {
     return listaApi.filter((produto) => produto.category.toLowerCase() === categoria.toLowerCase());
 }
 
-// async function buscaProduto(termoDeBusca) {
-//     const conexao = await fetch (`https://64bbe3437b33a35a4446c7db.mockapi.io/produtos?q=${termoDeBusca}`);
-//     const resposta = conexao.json();
-//     return resposta;
-// }
-
 // POST
 async function criaProduto(categoria, urlImagem, nomeProduto, preco, descricao) {
     const conexao = await fetch("https://64bbe3437b33a35a4446c7db.mockapi.io/produtos", {
@@ -82,6 +76,5 @@ export const produtosServicos = {
     editaProduto,
     excluiProduto,
     buscaProdutoPorId,
-    listaProdutosPorCategoria,
-    // buscaProduto
+    listaProdutosPorCategoria
 }
