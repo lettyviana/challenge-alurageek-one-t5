@@ -1,12 +1,11 @@
 import { produtosServicos } from "./crud/services/produto-servicos.js";
 
 function buscaProdutos() {
-    const containerInputPesquisa = document.querySelector("[data-container-pesquisa]")
     const inputPesquisa = document.querySelector("[data-input-pesquisa]");
     const listaResultados = document.querySelector(".lista-de-resultados");
   
     // Função para limpar a lista de resultados
-    function limparListaResultados() {
+    function limpaListaResultados() {
       while (listaResultados.firstChild) {
         listaResultados.removeChild(listaResultados.firstChild);
       }
@@ -25,7 +24,7 @@ function buscaProdutos() {
     // Função para filtrar os produtos de acordo com o valor de pesquisa
     function filtraProdutos() {
       const valorPesquisa = inputPesquisa.value.trim().toLowerCase();
-      limparListaResultados();
+      limpaListaResultados();
   
       if (!valorPesquisa) {
         return;
@@ -47,7 +46,7 @@ function buscaProdutos() {
           }
         })
         .catch((erro) => {
-          console.error('Erro ao obter a lista de produtos: ', erro);
+          console.error("Erro ao obter a lista de produtos: ", erro);
         });
     }
     
@@ -61,7 +60,7 @@ function buscaProdutos() {
     }
 
     // Adicionar evento de clique ao botão de pesquisa
-    const botaoPesquisa = document.querySelector('[data-botao-pesquisa]');
+    const botaoPesquisa = document.querySelector("[data-botao-pesquisa]");
     botaoPesquisa.addEventListener("click", () => {
         inputPesquisa.classList.toggle("ativo");
         filtraProdutos();
