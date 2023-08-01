@@ -75,14 +75,14 @@ A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas
     <img src="./assets/img/readme/pagina-do-produto-desktop.png" alt="Página do produto - desktop" width="900px" /><br />
     <img src="./assets/img/readme/pagina-login-desktop.png" alt="Página de login - desktop" width="900px" /><br />
     <img src="./assets/img/readme/pagina-menu-administrador-popup-exclusao-desktop.png" alt="Página do menu do administrador com popup de exclusão - desktop" width="900px" /><br />
-    <img src="./assets/img/readme/pagina-do-produto-tablet.png" alt="Página inicial - tablet" width="270px" />
-    <img src="./assets/img/readme/pagina-do-produto-tablet.png" alt="Página do produto - tablet" width="270px" />
-    <img src="./assets/img/readme/pagina-login-tablet.png" alt="Página de login - tablet" width="270px" />
-    <img src="./assets/img/readme/pagina-menu-administrador-popup-exclusao-tablet.png" alt="Página do menu do administrador com popup de exclusão - tablet" width="270px" />
-    <img src="./assets/img/readme/pagina-inicial-mobile.png" alt="Página inicial - mobile" width="150px" />
-    <img src="./assets/img/readme/pagina-do-produto-mobile.png" alt="Página do produto - mobile" width="150px" />
-    <img src="./assets/img/readme/pagina-login-mobile.png" alt="Página de login - mobile" width="150px" />
-    <img src="./assets/img/readme/pagina-menu-administrador-popup-exclusao-mobile.png" alt="Página do menu do administrador com popup de exclusão - mobile" width="150px" />
+    <img src="./assets/img/readme/pagina-do-produto-tablet.png" alt="Página inicial - tablet" width="230px" />
+    <img src="./assets/img/readme/pagina-do-produto-tablet.png" alt="Página do produto - tablet" width="230px" />
+    <img src="./assets/img/readme/pagina-login-tablet.png" alt="Página de login - tablet" width="230px" />
+    <img src="./assets/img/readme/pagina-menu-administrador-popup-exclusao-tablet.png" alt="Página do menu do administrador com popup de exclusão - tablet" width="230px" />
+    <img src="./assets/img/readme/pagina-inicial-mobile.png" alt="Página inicial - mobile" width="130px" />
+    <img src="./assets/img/readme/pagina-do-produto-mobile.png" alt="Página do produto - mobile" width="130px" />
+    <img src="./assets/img/readme/pagina-login-mobile.png" alt="Página de login - mobile" width="130px" />
+    <img src="./assets/img/readme/pagina-menu-administrador-popup-exclusao-mobile.png" alt="Página do menu do administrador com popup de exclusão - mobile" width="130px" />
 </div>
 
 #
@@ -102,7 +102,7 @@ A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas
 
 ### **7. Autora e contato**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leticiaviana-trad-dev/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/feed/update/urn:li:ugcPost:7092218346363887616/)
 
 #
 
