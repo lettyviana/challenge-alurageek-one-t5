@@ -15,11 +15,11 @@ A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas
 ## **Índice:**
 
 1. [Requisitos](#1-requisitos) 
-2. [Status](#2-status)
+2. [Como usar](#2-como-usar)
 3. [Minhas implementações](#3-minhas-implementações)
 4. [Tecnologias utilizadas](#4-linguagenstecnologias-utilizadas)
 5. [Imagens do projeto](#5-imagens-do-projeto)
-6. [Como usar](#6-como-usar)
+6. [Status](#6-status)
 7. [Autora e contato](#7-autora-e-contato)
 8. [Licença](#8-licença)
 
