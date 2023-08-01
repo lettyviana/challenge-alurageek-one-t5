@@ -18,6 +18,6 @@ formularioAdicionarProduto.addEventListener("submit", async evento => {
     const formularioValidado = validaForm();
     if(formularioValidado) {
         await adicionaProduto();
-        window.location.href="../challenge-alurageek-one-t5/pages/menu-administrador.html";
+        window.location.href="/challenge-alurageek-one-t5/pages/menu-administrador.html";
     }
 });
