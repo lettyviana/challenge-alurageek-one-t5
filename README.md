@@ -4,6 +4,7 @@
 
 - Se clonarem o projeto, gostarem e aproveitarem algo que foi feito, deixem ao menos uma estrelinha aqui para eu saber que ajudei alguém de alguma forma.
 - E lembrem-se de <strong>substituir</strong> o caminho da API (no meu caso, usei o Mockapi, conforme demonstrado na live de explicação do CRUD) no arquivo <strong>"servicos-produtos.js"</strong>, já que ainda pretendo fazer algumas modificações.
+- O formulário de contato ao final das páginas não envia a mensagem para lugar nenhum.
 
 <div align="center">
     <img src="./assets/img/readme/demonstração-alurageek.gif" width="900px" />
