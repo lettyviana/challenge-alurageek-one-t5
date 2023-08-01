@@ -14,7 +14,7 @@ document.querySelector('[data-botao-adicionar]').addEventListener('click', funct
       } else {
         // Quando a opacidade chegar a 0, interrompe a animação e redireciona para outra página
         clearInterval(animacao);
-        window.location.href = "http://127.0.0.1:5500/pages/adicionar-produtos.html";
+        window.location.href = "../pages/adicionar-produtos.html";
       }
     }, 300);
   });
