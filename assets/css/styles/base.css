@@ -14,19 +14,19 @@
 }
 @font-face {
     font-family: Raleway-400;
-    src: url(../Fonts/Raleway400.ttf);
+    src: url(../fonts/Raleway400.ttf);
 }
 @font-face {
     font-family: Raleway-500;
-    src: url(../Fonts/Raleway500.ttf);
+    src: url(../fonts/Raleway500.ttf);
 }
 @font-face {
     font-family: Raleway-600;
-    src: url(../Fonts/Raleway600.ttf);
+    src: url(../fonts/Raleway600.ttf);
 }
 @font-face {
     font-family: Raleway-700;
-    src: url(../Fonts/Raleway700.ttf);
+    src: url(../fonts/Raleway700.ttf);
 }
 * {
     box-sizing: border-box;
