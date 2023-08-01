@@ -78,7 +78,7 @@ A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas
     <img src="./assets/img/readme/pagina-do-produto-tablet.png" alt="Página inicial - tablet" width="210px" />
     <img src="./assets/img/readme/pagina-do-produto-tablet.png" alt="Página do produto - tablet" width="210px" />
     <img src="./assets/img/readme/pagina-login-tablet.png" alt="Página de login - tablet" width="210px" />
-    <img src="./assets/img/readme/pagina-menu-administrador-popup-exclusao-tablet.png" alt="Página do menu do administrador com popup de exclusão - tablet" width="210px" />
+    <img src="./assets/img/readme/pagina-menu-administrador-popup-exclusao-tablet.png" alt="Página do menu do administrador com popup de exclusão - tablet" width="210px" /><br/>
     <img src="./assets/img/readme/pagina-inicial-mobile.png" alt="Página inicial - mobile" width="130px" />
     <img src="./assets/img/readme/pagina-do-produto-mobile.png" alt="Página do produto - mobile" width="130px" />
     <img src="./assets/img/readme/pagina-login-mobile.png" alt="Página de login - mobile" width="130px" />
