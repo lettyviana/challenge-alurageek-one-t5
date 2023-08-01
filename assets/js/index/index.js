@@ -14,7 +14,7 @@ document.querySelector('[data-botao-login]').addEventListener('click', function(
       } else {
         // Quando a opacidade chegar a 0, interrompe a animação e redireciona para outra página
         clearInterval(animacao);
-        window.location.href = "../pages/home-login.html";
+        window.location.href = "../../pages/home-login.html";
       }
     }, 300);
   });
