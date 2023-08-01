@@ -1,6 +1,12 @@
 # **Challenge ONE - E-Commerce AluraGeek**
 
-### **Projeto de E-Commerce para AluraGeek**
+## <strong>AVISOS IMPORTANTES - LEIAM ANTES DE TUDO, POR FAVOR</strong>
+
+- Se clonarem o projeto, gostarem e aproveitarem algo que foi feito, deixem ao menos uma estrelinha aqui para eu saber que ajudei alguém de alguma forma.
+- E lembrem-se de <strong>substituir</strong> o caminho da API (no meu caso, usei o Mockapi, conforme demonstrado na live de explicação do CRUD) no arquivo <strong>"servicos-produtos.js"</strong>, já que ainda pretendo fazer algumas modificações.
+
+
+### **Sobre o Projeto Alurageek**
 
 A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas, para isso desejam implementar um e-commerce e levar a empresa ao próximo patamar, se tornar mais digital. Para isso eles estão solicitando a nossa ajuda como desenvolvedores para criar o site seguindo alguns requisitos, conforme explicado em [Requisitos](#1-requisitos).
 
@@ -40,6 +46,7 @@ A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas
 - [x] Próximos passos - página específica do produto: exibir produtos similares <br />
 - [x] Próximos passos - função de busca do produto: fazê-la funcionar de modo a exibir os produtos conforme o usuário for digitando <br />
 - [ ] Próximos passos - aplicar desconto nos consoles <br />
+- [ ] Próximos passos - fazer com que, ao clicar no link "Ver tudo" em alguma das seções da página inicial, o usuário veja apenas os produtos da categoria selecionada <br />
 
 #
 
@@ -47,7 +54,7 @@ A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas
 
 - Estilização ao passar o mouse sobre os links.
 - Pop-up de confirmação quanto à exclusão dos produtos na página do Menu do administrador.
-- 
+- Alterei algumas imagens, pois não encontrei mais algumas que estão no Figma.
 
 #
 
