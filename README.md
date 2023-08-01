@@ -5,6 +5,9 @@
 - Se clonarem o projeto, gostarem e aproveitarem algo que foi feito, deixem ao menos uma estrelinha aqui para eu saber que ajudei alguém de alguma forma.
 - E lembrem-se de <strong>substituir</strong> o caminho da API (no meu caso, usei o Mockapi, conforme demonstrado na live de explicação do CRUD) no arquivo <strong>"servicos-produtos.js"</strong>, já que ainda pretendo fazer algumas modificações.
 
+<div align="center">
+    <img src="./assets/img/readme/demonstração-alurageek.gif" width="900px" />
+</div>
 
 ### **Sobre o Projeto Alurageek**
 
@@ -40,9 +43,9 @@ A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas
 
 ### **2. Como usar**
 
-Basta acessar [aqui](https://lettyviana.github.io/challenge-alurageek-one-t5/).
-Para fazer login na área do menu do administrador, use o e-mail "alurageek@alurageek.com" e a senha "alur@Ge&k123" (apenas fictícios).
-Na área do administrador, é possível adicionar novos produtos, editar os já existentes e excluir algum produto (use esta última opção com cautela, por favor - deixei alguns produtos de teste que são livres para excluir/editar).
+- Basta acessar [aqui](https://lettyviana.github.io/challenge-alurageek-one-t5/).<br />
+- Para fazer login na área do menu do administrador, use o e-mail "alurageek@alurageek.com" e a senha "alur@Ge&k123" (apenas fictícios).<br />
+- Na área do administrador, é possível adicionar novos produtos, editar os já existentes e excluir algum produto (use esta última opção com cautela, por favor - deixei alguns produtos de teste que são livres para excluir/editar).
 
 #
 
@@ -51,6 +54,7 @@ Na área do administrador, é possível adicionar novos produtos, editar os já 
 - Estilização ao passar o mouse sobre os links.
 - Pop-up de confirmação quanto à exclusão dos produtos na página do Menu do administrador.
 - Alterei algumas imagens, pois não encontrei mais algumas que estão no Figma.
+- Favicon específico para cada página.
 
 #
 
@@ -66,7 +70,20 @@ Na área do administrador, é possível adicionar novos produtos, editar os já 
 
 ### **5. Imagens do projeto**
 
-Em breve.
+<div align="center">
+    <img src="./assets/img/readme/pagina-inicial-desktop.png" alt="Página inicial - desktop" width="900px"/><br />
+    <img src="./assets/img/readme/pagina-do-produto-desktop.png" alt="Página do produto - desktop" width="900px" /><br />
+    <img src="./assets/img/readme/pagina-login-desktop.png" alt="Página de login - desktop" width="900px" /><br />
+    <img src="./assets/img/readme/pagina-menu-administrador-popup-exclusao-desktop.png" alt="Página do menu do administrador com popup de exclusão - desktop" width="900px" /><br />
+    <img src="./assets/img/readme/pagina-do-produto-tablet.png" alt="Página inicial - tablet" width="270px" />
+    <img src="./assets/img/readme/pagina-do-produto-tablet.png" alt="Página do produto - tablet" width="270px" />
+    <img src="./assets/img/readme/pagina-login-tablet.png" alt="Página de login - tablet" width="270px" />
+    <img src="./assets/img/readme/pagina-menu-administrador-popup-exclusao-tablet.png" alt="Página do menu do administrador com popup de exclusão - tablet" width="270px" />
+    <img src="./assets/img/readme/pagina-inicial-mobile.png" alt="Página inicial - mobile" width="150px" />
+    <img src="./assets/img/readme/pagina-do-produto-mobile.png" alt="Página do produto - mobile" width="150px" />
+    <img src="./assets/img/readme/pagina-login-mobile.png" alt="Página de login - mobile" width="150px" />
+    <img src="./assets/img/readme/pagina-menu-administrador-popup-exclusao-mobile.png" alt="Página do menu do administrador com popup de exclusão - mobile" width="150px" />
+</div>
 
 #
 
@@ -79,6 +96,7 @@ Em breve.
 - [x] Próximos passos - função de busca do produto: fazê-la funcionar de modo a exibir os produtos conforme o usuário for digitando <br />
 - [ ] Próximos passos - aplicar desconto nos consoles <br />
 - [ ] Próximos passos - fazer com que, ao clicar no link "Ver tudo" em alguma das seções da página inicial, o usuário veja apenas os produtos da categoria selecionada <br />
+- [ ] Próximos passos - arrumar responsividade <br />
 
 #
 

@@ -79,7 +79,7 @@
 
 @media screen and (max-device-width: 768px) {
     .produtos-similares {
-        height: 294px;
+        height: 265px;
         overflow-y: hidden;
         width: 704px;
     }
@@ -96,7 +96,7 @@
 
 @media screen and (max-device-width: 360px) {
     .produtos-similares {
-        height: 578px;
+        height: auto;
         overflow-y: hidden;
         width: 328px;
     }
