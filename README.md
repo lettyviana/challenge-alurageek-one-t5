@@ -38,15 +38,11 @@ A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas
 
 #
 
-### **2. Status**
+### **2. Como usar**
 
-- [x] Primeira parte - estrutura e estilização;<br />
-- [x] Próximos passos - exclusão do produto <br />
-- [x] Próximos passos - página específica do produto: exibir informações do produto <br />
-- [x] Próximos passos - página específica do produto: exibir produtos similares <br />
-- [x] Próximos passos - função de busca do produto: fazê-la funcionar de modo a exibir os produtos conforme o usuário for digitando <br />
-- [ ] Próximos passos - aplicar desconto nos consoles <br />
-- [ ] Próximos passos - fazer com que, ao clicar no link "Ver tudo" em alguma das seções da página inicial, o usuário veja apenas os produtos da categoria selecionada <br />
+Basta acessar [aqui](https://lettyviana.github.io/challenge-alurageek-one-t5/).
+Para fazer login na área do menu do administrador, use o e-mail "alurageek@alurageek.com" e a senha "alur@Ge&k123" (apenas fictícios).
+Na área do administrador, é possível adicionar novos produtos, editar os já existentes e excluir algum produto (use esta última opção com cautela, por favor - deixei alguns produtos de teste que são livres para excluir/editar).
 
 #
 
@@ -74,9 +70,15 @@ Em breve.
 
 #
 
-### **6. Como usar**
+### **6. Status**
 
-Em breve.
+- [x] Primeira parte - estrutura e estilização;<br />
+- [x] Próximos passos - exclusão do produto <br />
+- [x] Próximos passos - página específica do produto: exibir informações do produto <br />
+- [x] Próximos passos - página específica do produto: exibir produtos similares <br />
+- [x] Próximos passos - função de busca do produto: fazê-la funcionar de modo a exibir os produtos conforme o usuário for digitando <br />
+- [ ] Próximos passos - aplicar desconto nos consoles <br />
+- [ ] Próximos passos - fazer com que, ao clicar no link "Ver tudo" em alguma das seções da página inicial, o usuário veja apenas os produtos da categoria selecionada <br />
 
 #
 
