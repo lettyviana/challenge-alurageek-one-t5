@@ -10,7 +10,7 @@ function criaCardProdutoSimilar(imageUrl, name, price, alt, id, category) {
     <h3 class="produto__nome">${name}</h3>
     <div class="produto__preco">R$ ${price}</div>
     <span class="produto__categoria">${category}</span>
-    <a href="../../pages/pagina-produto.html?categoria=${category}&id=${id}" class="produto__link" data-categoria="${category}" data-id="${id}">Ver produto</a>
+    <a href="../pages/pagina-produto.html?categoria=${category}&id=${id}" class="produto__link" data-categoria="${category}" data-id="${id}">Ver produto</a>
     `
     return produtoSimilar;
 }
