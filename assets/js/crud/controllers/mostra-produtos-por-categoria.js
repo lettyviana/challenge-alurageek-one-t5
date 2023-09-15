@@ -6,7 +6,7 @@ export default function criaCardProduto(imageUrl, name, price, alt, category, id
     produto.className = "produto";
 
     const precoNumerico = parseFloat(price);
-    const precoComDesconto = category.toLowerCase() === "console" ? precoNumerico * 0.33 : precoNumerico;
+    const precoComDesconto = category.toLowerCase() === "consoles" ? precoNumerico * 0.33 : precoNumerico;
     produto.innerHTML = `
     <div class="produto">
         <img class="produto__imagem" src="${imageUrl}" alt="${alt}"/>
