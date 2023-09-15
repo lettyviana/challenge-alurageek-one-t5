@@ -4,11 +4,14 @@ export default function criaCardProduto(imageUrl, name, price, alt, category, id
     const produto = document.createElement("div");
     
     produto.className = "produto";
+
+    const precoNumerico = parseFloat(price);
+    const precoComDesconto = category.toLowerCase() === "console" ? precoNumerico * 0.33 : precoNumerico;
     produto.innerHTML = `
     <div class="produto">
         <img class="produto__imagem" src="${imageUrl}" alt="${alt}"/>
         <h3 class="produto__nome">${name}</h3>
-        <div class="produto__preco">R$ ${price}</div>
+        <div class="produto__preco">R$ ${precoComDesconto.toFixed(2)}</div>
         <span class="produto__categoria">${category}</span>
         <a href="../challenge-alurageek-one-t5/pages/pagina-produto.html?categoria=${category}&id=${id}" class="produto__link" data-categoria="${category}" data-id="${id}">Ver produto</a>
     </div>
